@@ -7,3 +7,5 @@ from .models import  Owner
 class OwnerAdmin(admin.ModelAdmin):
     list_display = ('nombre','edad','pais')
     search_fields = ('nombre',)
+    list_filter = ('nombre',)
+    fields = ('nombre',)

@@ -4,4 +4,4 @@ from django.db import models
 class Owner(models.Model):
     nombre = models.CharField(max_length=40)
     edad = models.IntegerField()
-    pais = models.CharField(max_length=120, default='')
+    pais = models.CharField(max_length=120, default='coño')
